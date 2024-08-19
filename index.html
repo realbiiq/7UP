@@ -1,65 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-     <!--SECCION DE META DATA-->
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="HTML.png" type="image/x-icon">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML, CSS, JavaScript</title>
-    <meta name="description" content="Pagina de Ejemplo para Proyecto Web Basico con HTML5, CSS,  Git y Git-Hub de IHC">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="ING. JUANCITO PEÑA">
-    <meta name="copyright" content="https://advisertecnology.com/" />
-    <link rel="stylesheet" href="estilo.css" />
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7UP</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="https://www.example.com/path-to-your-audio-file.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
 
+    <header>
+        <h1>Historia y Virtudes de 7UP</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#virtudes">Virtudes</a></li>
+                <li><a href="#media">Videos y Canciones</a></li>
+                <li><a href="#galeria">Galería de Imágenes</a></li>
+            </ul>
+        </nav>
+    </header>
 
-   </head>
-    <!--CUERPO DE MI DOCUMENTO, AQUI COMIENZA LA PARRTE QUE SE MOSTRARA EN EL NAVEGADOR-->
-  <body>
-    <div class="container">
-      <!--ENCABEZADO-->
-      <header>
-        <h1>AQUI VA EL TITULO, SLICER, BIENVENIDOS A MI PAGINA WEB, ETC.</h1>
-      </header>
-      <!--NAVEGACION-->
-      <nav>
-      <h2>AQUI VA EL MENU</h2> 
-
-      </nav> 
-
-      <!--CONTENIDO-->
-    <section id="contenido" >
-       <!--ARTICULOS-->
-      <article class="uno">
-
-        <h2>Aqui va el Contenido, pueden ser varios articulos</h2>
-       
-      </article>
-      
-      <article class="dos">
-
-        <h2>Aqui va el Contenido, pueden ser varios articulos</h2>
-        
-      </article>
-
+    <section id="historia">
+        <h2>Historia de 7UP</h2>
+        <p>7UP fue creada en 1929 por Charles Leiper Grigg en St. Louis, Missouri...</p>
     </section>
 
-    
-     <!--PUBLICIDAD-->
-    <aside>
+    <section id="virtudes">
+        <h2>Virtudes de 7UP</h2>
+        <p>7UP es una bebida refrescante y ligera, conocida por su sabor a lima-limón...</p>
+    </section>
 
-      <h2>Aqui va Publicidad o noticias</h2>
+    <section id="media">
+        <h2>Videos y Canciones</h2>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YLiZUzW0gtQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Comercial Retro: The Uncola</p>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5OHHfGONJ9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Comercial: Feels Good to be You</p>
+        </div>
+    </section>
 
-    </aside>
-     
-    <div class="clearfix" ></div>
+    <section id="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="galeria">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/7UP_Bottle_2021.jpg" alt="7UP Clásico">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/7Up_Free_Can.jpg" alt="7UP Free">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/7up_retro_can.jpg" alt="7UP Retro">
+        </div>
+    </section>
 
-      <!--FOOTER O PIE DE PAGINA-->
-      <footer>
-        <p> AQUI VA EL PIE DE PAGINA EJEMPLO: &copy; Ing. Juancito Peña-2022</p>
-      </footer>
-    </div>
-  </body>
+    <footer>
+        <p>&copy; 2024 7UP. Todos los derechos reservados.</p>
+    </footer>
+</body>
 </html>
-
