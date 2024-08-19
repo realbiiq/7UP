@@ -1,63 +1,62 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7UP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="https://www.example.com/path-to-your-audio-file.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
 
-header {
-    background-color: #34A853;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
+    <header>
+        <h1>Historia y Virtudes de 7UP</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#virtudes">Virtudes</a></li>
+                <li><a href="#media">Videos y Canciones</a></li>
+                <li><a href="#galeria">Galería de Imágenes</a></li>
+            </ul>
+        </nav>
+    </header>
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
+    <section id="historia">
+        <h2>Historia de 7UP</h2>
+        <p>7UP fue creada en 1929 por Charles Leiper Grigg en St. Louis, Missouri...</p>
+    </section>
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
+    <section id="virtudes">
+        <h2>Virtudes de 7UP</h2>
+        <p>7UP es una bebida refrescante y ligera, conocida por su sabor a lima-limón...</p>
+    </section>
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+    <section id="media">
+        <h2>Videos y Canciones</h2>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YLiZUzW0gtQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Comercial Retro: The Uncola</p>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5OHHfGONJ9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Comercial: Feels Good to be You</p>
+        </div>
+    </section>
 
-section {
-    margin: 20px;
-}
+    <section id="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="galeria">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/7UP_Bottle_2021.jpg" alt="7UP Clásico">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/7Up_Free_Can.jpg" alt="7UP Free">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/7up_retro_can.jpg" alt="7UP Retro">
+        </div>
+    </section>
 
-h2 {
-    color: #34A853;
-}
-
-.video iframe {
-    display: block;
-    margin: 20px auto;
-}
-
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.galeria img {
-    margin: 10px;
-    max-width: 30%;
-    height: auto;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    <footer>
+        <p>&copy; 2024 7UP. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
